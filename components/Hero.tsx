@@ -26,7 +26,7 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <h2 className="uppercase tracking-widest test-xs test-center text-green-100 max-w-80">
-            Chasing mastering
+            Chasing mastery
           </h2>
 
           <TextGenerateEffect
