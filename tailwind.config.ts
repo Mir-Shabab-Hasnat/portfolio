@@ -29,9 +29,13 @@ const config = {
       colors: {
         black: {
           DEFAULT: "#000",
-          100: "#001a10",
+          100: "#000319",
           200: "rgba(17, 25, 40, 0.75)",
           300: "rgba(255, 255, 255, 0.125)",
+        },
+        neon: {
+          DEFAULT: "#000",
+          100: "#D6FF40",
         },
         white: {
           DEFAULT: "#FFF",
