@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -173,45 +173,35 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend UI/UX Intern",
+    desc: " Designed and developed eye-catching graphics and intuitive UI designs for multiple small businesses, enhancing overall visual appeal and user experience",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Math and Science Instructor",
+    desc: "Instructed over 50+ students through grades 1 to University level, displaying exceptional ability to communicate with a wide array of different individuals",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "/teaching.png",
   },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
+  
 ];
 
 export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/Mir-Shabab-Hasnat"
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://www.instagram.com/shabab.hasnat/"
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "/instagram (1).png",
+    link: "https://www.linkedin.com/in/mir-shabab-hasnat-222266216/"
   },
 ];
