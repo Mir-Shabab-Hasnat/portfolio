@@ -10,8 +10,7 @@ const Footer = () => {
       
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Interested to <span className="text-purple">broaden</span> your
-          connections?
+          Wanna <span className="text-purple">rant</span> about the tech industry?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Reach out to me and let&apos;s have a chat!

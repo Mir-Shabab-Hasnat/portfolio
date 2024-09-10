@@ -39,7 +39,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Tech enthusiast with a passion for learning.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -197,12 +197,12 @@ export const socialMedia = [
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/instagram (1).png",
     link: "https://www.instagram.com/shabab.hasnat/"
   },
   {
     id: 3,
-    img: "/instagram (1).png",
+    img: "/link.svg",
     link: "https://www.linkedin.com/in/mir-shabab-hasnat-222266216/"
   },
 ];
