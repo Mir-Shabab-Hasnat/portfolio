@@ -1,3 +1,5 @@
+"use client"
+
 import Hero from "@/components/Hero";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import Grid from "@/components/Grid";
@@ -6,6 +8,7 @@ import RecentProjects from "@/components/RecentProjects";
 import { navItems } from "@/data";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
+import Game from "@/components/Game";
 
 export default function Home() {
   return (
@@ -19,6 +22,7 @@ export default function Home() {
         <RecentProjects />
         <Experience />
         <Footer />
+        <Game />
       </div>
     </main>
   );
