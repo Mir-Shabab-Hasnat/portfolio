@@ -50,7 +50,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently working on an AI-Powered SaaS application",
+    title: "Currently working on a sidescrolling infinite runner game in Godot!",
     description: "My Current Project",
     className: "md:col-span-3 md:row-span-1",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -70,15 +70,15 @@ export const gridItems = [
   },
 ];
 
-export const projects = [
-  {
+export const projects = [{
     id: 1,
-    title: "Issue Tracker - Track your project issues",
-    des: "Enhance your group projects by listing down issues and assiging them to each individual through our efficient and simple app.",
-    img: "/p1.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/PostgresSQL.svg", "/Google.svg"],
-    link: "https://issue-tracker-alpha-three.vercel.app/",
+    title: "Health Bridge - Making healthcare more efficient!",
+    des: "An AI powered appointment management system which allows patients with more priosity to get their apointments first",
+    img: "/healthbridge.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/PostgresSQL.svg"],
+    link: "https://health-brigde-v2-hxb68950i-mir-shabab-hasnats-projects.vercel.app",
   },
+  
   {
     id: 2,
     title: "ScreenDraw - Draw on your screen just using your fingers!",
@@ -86,22 +86,38 @@ export const projects = [
     img: "/p2.png",
     iconLists: ["/Python.svg", "/NumPy.svg", "/OpenCV.svg"],
     link: "https://github.com/Mir-Shabab-Hasnat/ScreenDrawing",
-  },
-  {
+  },{
     id: 3,
-    title: "Scholar Assist - Ask your PDF anything!",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/PostgresSQL.svg"],
-    link: "https://github.com/Mir-Shabab-Hasnat/scholar-assist",
+    title: "NASA Seismic Detection ML Model",
+    des: "A ML model which detects useful seismic data, identifies 2% of the 4 million data points and sends it back",
+    img: "/nasaSeismic.jpg",
+    iconLists: ["/Python.svg"],
+    link: "https://github.com/Mir-Shabab-Hasnat/NASA-Seismic-Detection-Model",
   },
   {
     id: 4,
+    title: "Issue Tracker - Track your project issues",
+    des: "Enhance your group projects by listing down issues and assiging them to each individual through our efficient and simple app.",
+    img: "/p1.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/PostgresSQL.svg", "/Google.svg"],
+    link: "https://issue-tracker-alpha-three.vercel.app/",
+  },
+  {
+    id: 5,
     title: "Flappy Bird - Made in Python!",
     des: "Recreated the classic Flappy Bird game, and is still as enjoyable as ever",
     img: "/p4.png",
     iconLists: ["/Python.svg"],
     link: "https://github.com/Mir-Shabab-Hasnat/Flappy-Bird",
+  },
+  
+  {
+    id: 6,
+    title: "Pawdopt - Making adoption easier",
+    des: "Made using Nextjs and Resend for aplication confirmation.",
+    img: "/pawdopt.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", ],
+    link: "https://pawdopt.vercel.app/",
   },
 ];
 
@@ -185,6 +201,13 @@ export const workExperience = [
     desc: "Instructed over 50+ students through grades 1 to University level, displaying exceptional ability to communicate with a wide array of different individuals",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/teaching.png",
+  },
+  {
+    id: 1,
+    title: "Multiple Hackathon Participant",
+    desc: "Hackathons are my jam and I love spending an entire night with complete strangers in the process!",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
   },
   
 ];
